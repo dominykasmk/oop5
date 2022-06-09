@@ -34,7 +34,7 @@ int main() {
     unordered_map<string, vector<int>> frequency; 
 
     try {
-        read_file( "tekstas.txt",  frequency );
+        read_file( "../tekstai/tekstas.txt",  frequency );
     }
     catch ( string e ) {
         std::cerr << "Klaida atidarinėjant failą\n";
